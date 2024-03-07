@@ -8,13 +8,26 @@
 body {
     font-family: "Nunito", sans-serif;
     font-style: normal;
+    color: #fff;
+    background-position: 8rem;
+    background-image: url('background.jpg');
 }
 
 header {
+    padding: 1.5rem 1.5rem;
+    display: block;
+    /* background-color: #1c1c1c; */
+}
+
+.header-main h1 {
+    user-select: none;
+    font-weight: 800;
+}
+
+.header-main {
     justify-content: space-between;
     display: flex;
-    margin: 1.5rem;
-    padding-left: 1.5rem;
+    padding-left: 4rem;
     padding-right: 6rem;
 }
 
@@ -25,9 +38,14 @@ header {
     gap: 1rem;
 }
 
+.header-content a i {
+    align-items: center;
+    margin-right: .5rem;
+}
+
 .header-content a {
+    color: #fff;
     text-decoration: none;
-    color: #000;
 }
 
 .header-content a:hover {
